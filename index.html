@@ -14,17 +14,24 @@
 	</head>
 
 	<body>
-		<h1>World Database Lookup</h1>
+		<header>
+			<h1>World Database Lookup</h1>
+		</header>
+		
 
 		<div id="controls">
-			<label for="country">Country:</label>
+			<label for="country">Country:</label><br>
 			<input id="country" type="text" name="country" value="Jamaica" />
+			<input type="checkbox" id ='all' value="true">All
 			<button id="lookup">Lookup</button>
-		</div>
+		</div><br>
+		
 
+		
 		<div id="result">
 			<!-- countries will appear here -->
 		</div>
 
 	</body>
+	<script type="text/javascript" src="world.js"></script>
 </html>
